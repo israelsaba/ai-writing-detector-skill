@@ -2,11 +2,31 @@
 type: knowledge_bundle_index
 title: AI Writing Detector and Human-Sounding Copy Skill
 description: An Agent Skill for reviewing AI writing signals and revising English or Brazilian Portuguese copy to sound specific, natural, and human-edited.
-tags: [agent-skills, ai-writing-detector, ai-content-detector, humanize-ai-text, copy-editing, writing-quality]
+tags:
+  [
+    agent-skills,
+    ai-writing-detector,
+    ai-content-detector,
+    humanize-ai-text,
+    copy-editing,
+    writing-quality,
+  ]
 timestamp: 2026-08-19T00:00:00-03:00
 ---
 
 # AI Writing Detector and Human-Sounding Copy Skill
+
+```
+
+                      )      (   (
+    )      )  (    ( /(   (  )\  )\
+ ( /(   ( /(  )\   )\()) ))\((_)((_)(
+ )\())  )(_))((_) (_))/ /((_)_   _  )\
+((_)\  ((_)_  (_) | |_ (_)) | | | |((_)
+\ \ /  / _` | | | |  _|/ -_)| | | |(_-<
+/_\_\  \__,_| |_|  \__|\___||_| |_|/__/
+
+```
 
 This repository publishes the `anti-ai-tells` Agent Skill. It reviews AI writing signals such as formulaic phrasing, suspicious punctuation, repeated structures, and low sentence-length variation, then proposes concrete edits for English and Brazilian Portuguese.
 
@@ -56,11 +76,11 @@ Stable releases use `vMAJOR.MINOR.PATCH` tags and GitHub release notes. Install 
 
 ## Sources
 
-| Source | Claim supported |
-| --- | --- |
-| [`SKILL.md`](SKILL.md) | Operational rules, trigger conditions, and limitations |
-| [`reference.md`](reference.md) | Evidence trail and rule rationale maintained with the skill |
-| [OpenCode skills documentation](https://opencode.ai/docs/skills/) | Agent skill discovery and `SKILL.md` conventions |
+| Source                                                            | Claim supported                                             |
+| ----------------------------------------------------------------- | ----------------------------------------------------------- |
+| [`SKILL.md`](SKILL.md)                                            | Operational rules, trigger conditions, and limitations      |
+| [`reference.md`](reference.md)                                    | Evidence trail and rule rationale maintained with the skill |
+| [OpenCode skills documentation](https://opencode.ai/docs/skills/) | Agent skill discovery and `SKILL.md` conventions            |
 
 ## License
 
