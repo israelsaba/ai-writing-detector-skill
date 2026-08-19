@@ -108,6 +108,7 @@ PATTERNS: list[tuple[str, str, str, str]] = [
     (r'\bholistic\b', 'AI buzzword (EN)', 'soft', 'en'),
     (r'\bleverag(e|es|ing)\b', 'AI buzzword (EN)', 'soft', 'en'),
     (r'\bresonate(s|d)?\b', 'AI buzzword (EN)', 'soft', 'en'),
+    (r'\bprovenance\b', 'AI buzzword (EN)', 'hard', 'en'),
 ]
 
 

@@ -59,7 +59,9 @@ Human text has high burstiness: a mix of short and long sentences. Every publish
 ## Forbidden vocabulary
 
 ### English (a.k.a. "ChatGPT buzzword bingo")
-delve, delve into, tapestry, navigate (the landscape/the complexities), foster, underscore, nuanced, pivotal, elevate, realm (in the realm of), bolster, grapple, myriad, testament (stands as a testament), comprehensive, seamless, embark (embark on a journey), crucial, meticulous, robust, multifaceted, holistic, unprecedented, ever-evolving, cutting-edge, game-changing, transformative, leverage (as verb), resonate.
+delve, delve into, tapestry, navigate (the landscape/the complexities), foster, underscore, nuanced, pivotal, elevate, realm (in the realm of), bolster, grapple, myriad, testament (stands as a testament), comprehensive, seamless, embark (embark on a journey), crucial, meticulous, robust, multifaceted, holistic, unprecedented, ever-evolving, cutting-edge, game-changing, transformative, leverage (as verb), resonate, provenance.
+
+**Hard ban:** Do not use `provenance` in ordinary project, product, or open-source copy. Say "origin", "source", "history", or the specific fact instead. Keep the word only when discussing a formal metadata, legal, archival, or security standard that actually uses it.
 
 ### Portuguese (Brazilian, ChatGPT pt-BR tells)
 **Openings to cut:** "no cenário atual", "em um mundo cada vez mais", "nos dias de hoje", "vivemos em uma época", "nessa era digital", "atualmente a tecnologia", "a IA tem revolucionado".
