@@ -44,6 +44,10 @@ cp -R ai-writing-detector-skill/. ~/.config/opencode/skills/anti-ai-tells/
 
 The directory can also be copied to `~/.hermes/skills/anti-ai-tells/`, `~/.claude/skills/anti-ai-tells/`, or `~/.codex/skills/anti-ai-tells/`. Start a new agent session after installation.
 
+## Safe Permissions
+
+The core review runs locally and needs read access only to the draft the user names. It does not need network, browser, credential, or elevated permissions. Allow writes only when the user asks for a saved rewrite. The optional MCP server needs permission to read its own skill files and run the configured Python process, not unrestricted shell or filesystem access. Do not send drafts to external detectors without explicit approval.
+
 ## Use It
 
 Ask the agent to use `anti-ai-tells` when drafting, reviewing, or revising public-facing copy. For a local CLI check:
