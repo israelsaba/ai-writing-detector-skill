@@ -29,8 +29,6 @@ timestamp: 2026-08-19T00:00:00-03:00
 
 This repository publishes the `anti-ai-tells` Agent Skill. It reviews AI writing signals such as formulaic phrasing, suspicious punctuation, repeated structures, and low sentence-length variation, then proposes concrete edits for English and Brazilian Portuguese.
 
-The name targets the common search intent "AI writing detector" while the scope stays honest: stylistic signals are not proof of authorship, and no detector can reliably establish whether a person or model wrote text from style alone.
-
 ## Install The Skill
 
 Copy the full repository directory into the agent's skill directory. Keep `SKILL.md`, `reference.md`, the CLI, and the MCP files together:
